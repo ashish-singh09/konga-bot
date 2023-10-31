@@ -1,11 +1,11 @@
 {
-  "name": "autoprtester",
+  "name": "IssueResponder",
   "version": "1.0.0",
   "private": true,
-  "description": "This is a bot to auto execute the code of a pull request",
+  "description": "This is a bot developed to auto reply to repo issue created",
   "author": "Ashish Kumar Singh",
   "license": "ISC",
-  "homepage": "https://github.com//",
+  "homepage": "https://github.com/",
   "keywords": [
     "probot",
     "github",
@@ -13,14 +13,19 @@
   ],
   "scripts": {
     "start": "probot run ./index.js",
-    "test": "jest"
+    "test": "jest",
+    "dev": "nodemon ./server.js"
   },
   "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
     "probot": "^12.2.4"
   },
   "devDependencies": {
     "jest": "^29.0.0",
     "nock": "^13.0.5",
+    "nodemon": "^3.0.1",
     "smee-client": "^1.2.2"
   },
   "engines": {
