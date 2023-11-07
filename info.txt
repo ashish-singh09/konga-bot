@@ -1,6 +1,1 @@
 https://www.geeksforgeeks.org/jwt-authentication-with-refresh-tokens/
-
-
-AutoPRTester is a GitHub App designed to enhance your code review process. It listens for pull request creation events and enables you to execute and analyze code directly from pull requests. With features like code execution, code explanations, and more, it simplifies the code review workflow and helps developers make informed decisions.
-
-AutoPRTester
